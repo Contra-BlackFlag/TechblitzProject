@@ -59,7 +59,7 @@ for i, (summary, embedding) in enumerate(zip(summaries, embeddings)):
 print(f"Stored {len(summaries)} financial data points in the vector database.")
 
 # Setup Gemini API
-genai.configure(api_key="AIzaSyDQ0S8anqLotDjxKcdLpnDeDAMNTbyEHT0")
+genai.configure(api_key="YOUR API KEY HERE")
 
 # List available models
 def list_available_models():
